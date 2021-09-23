@@ -93,7 +93,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .head-wrapper {
-  background: url(/img/header/bg.png) 100%/cover no-repeat;
+  background: url(img/header/bg.png) 100%/cover no-repeat;
 }
 
 .container {
@@ -401,7 +401,7 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background: url(/img/mission/bg-mask.png), url(/img/mission/bg.png) center/cover no-repeat;
+  background: url(img/mission/bg-mask.png), url(img/mission/bg.png) center/cover no-repeat;
 }
 
 .mission__title {
