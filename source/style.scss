@@ -371,6 +371,11 @@ color: $c_l_b;
     line-height: 1.3em;
     border-radius: 4px;
     margin-bottom: 20px;
+    transition: all .2s ease;
+    &:hover {
+      transform: scale(1.1);
+      transition: all .2s ease;
+    }
   }
 // Press
 
@@ -389,6 +394,9 @@ color: $c_l_b;
 .news {
   display: flex;
   align-items: center;
+  border: 2px solid rgba(95, 123, 144, 0.2);
+  border-left: none;
+  border-right: none;
 }
 .news-prev {
   padding: 90px 0;
@@ -433,6 +441,7 @@ color: $c_b;
   margin-bottom: 40px;
 }
 .news-list {
+  border-left: 2px solid rgba(95, 123, 144, 0.2);
   padding: 50px 0 50px 55px;
 }
 .news-list__box {
