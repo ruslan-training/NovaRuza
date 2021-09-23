@@ -1,0 +1,33 @@
+@import "nullstyle.scss";
+@import "fonts.scss";
+@import "colors.scss";
+
+@import "topMenuFixed.scss";
+@import "headMain.scss";
+@import "about.scss";
+@import "mission.scss";
+@import "slider.scss";
+@import "press.scss";
+@import "salesSlider.scss";
+@import "footer.scss";
+
+@media (max-width: 1200px) {
+  .container  {
+    width: 100%;
+    padding: 0 15px;
+  }
+  .slide {
+    margin-right: 15px;
+  }
+  .slide:last-child {
+    margin-right: 0;
+  }
+}
+
+
+
+
+
+
+
+

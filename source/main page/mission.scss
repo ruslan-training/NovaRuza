@@ -1,0 +1,34 @@
+//  Mission
+.mission {
+    position: relative;
+    height: 630px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url(../img/mission/bg-mask.png), url(../img/mission/bg.png) center / cover no-repeat;
+  }
+    .mission__title {
+      font-family: "Circe";
+      font-weight: 700;
+      font-size: 48px;
+      line-height: 1em;
+      text-align: center;
+      color: $c_w;
+      margin-bottom: 10px;
+    }
+    .center {
+      width: 155px;
+      border: 2px solid $c_l_g;
+      margin: 30px 0;
+    }
+    .mission__text {
+      max-width: 830px;
+      width: 100%;
+      font-family: "Circe";
+      font-weight: 250;
+      font-size: 24px;
+      line-height: 1.3em;
+      text-align: center;
+      color: $c_w;
+    }
