@@ -1,0 +1,84 @@
+.rc-main {
+    background: linear-gradient(180deg, rgba(32, 50, 66, 0.5) 0%, rgba(32, 50, 66, 0.547541) 78.12%, rgba(32, 50, 66, 0.8) 95.31%), url(/img/other_pages/rc/bg.png) center / cover no-repeat;
+  }
+  // DESCR
+  .rc-description-logo {
+    margin-right: 75px;
+  }
+  .rc-description-title {
+    font-family: "Circe";
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.3em;
+    color: $c_b;
+    margin-bottom: 75px;
+  }
+  // VILLAGE info
+  .rc-village-info__text p {
+    max-width: 535px;
+    width: 100%;
+    font-family: "Circe";
+    font-weight: 350;
+    font-size: 16px;
+    line-height: 1.5em;
+    margin-bottom: 20px;
+    color: $c_b;
+    padding: 0 50px 0 0;
+  }
+  .village-info {
+   flex: 0 1 auto;
+  }
+  .rc-village-info-detail {
+    flex: 0 1 auto;
+    padding: 140px 0 0 130px;
+  }
+  // MAP
+  .rc-map {
+    position: relative;
+  }
+  .rc-map img {
+    width: 100%;
+  }
+  .rc-map__btn {
+    position: absolute;
+    top: 48px;
+    right: 95px;
+  }
+  .rc-map__text {
+    position: absolute;
+    top: 124px;
+    right: 49px;
+    text-align: right;
+  }
+  .rc-map__text a {
+    font-family: "Circe";
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.3em;
+    color: $c_w;
+  }
+  .rc-house-descr__title {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 25px;
+    .rc-house-title {
+    font-family: "Circe";
+    font-weight: 700;
+    font-size: 33px;
+    line-height: 1.2em;
+    text-transform: uppercase;
+    color: $c_b;
+    border-right: 3px solid $c_b;
+    padding: 0 15px 0 0;
+    }
+    .rc-house-sub-title {
+      font-family: "Circe";
+      font-weight: 700;
+      font-size: 33px;
+      line-height: 1.2em;
+      text-transform: uppercase;
+      color: $c_l_g;
+      padding: 0 0 0 15px;
+      }
+  }

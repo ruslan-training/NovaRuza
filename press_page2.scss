@@ -1,0 +1,112 @@
+.press-nd-main {
+    background: linear-gradient(180deg, rgba(32, 50, 66, 0) 19.27%, #203242 95.31%), url(/img/press/p2_bg.png) center / cover no-repeat;
+  }
+  .press-main-body {
+    padding: 40px 0 70px ;
+  }
+  .return-to-press {
+    display: flex;
+    align-items: center;
+  }
+  .return-to-press img {
+    margin-right: 20px;
+  }
+  .return-to-press__text {
+    font-family: "Circe";
+    font-weight: 400;
+    font-size: 16px;
+    color: $c_w;
+  }
+  .press-nd-h1 {
+    margin: 220px 0 35px;
+  }
+  
+  // news-box
+  .news-box-nd {
+    display: flex;
+    padding: 70px 0 0 0;
+  }
+  .text-box-nd {
+    padding-right: 70px;
+    border-right: 1px solid rgba(95, 123, 144, 0.2);
+    border-bottom: 1px solid rgba(95, 123, 144, 0.2);
+  }
+  .text-box-nd__text {
+    max-width: 700px;
+    width: 100%; 
+  }
+  .text-box-nd__text p {
+    font-family: "Circe";
+    font-weight: 350;
+    font-size: 16px;
+    line-height: 1.3em;
+    color: $c_b;
+    margin-bottom: 40px;
+  }
+  .text-box-nd__text._last {
+    margin: 40px 0 0 0;
+  }
+  .last-news {
+    border-bottom: 1px solid rgba(95, 123, 144, 0.2);
+  }
+  .last-news__title {
+    font-family: "Circe";
+    font-weight: 700;
+    font-size: 24px;
+    color: $c_l_b;
+    padding: 0 0 35px 60px;
+    border-bottom: 1px solid rgba(95, 123, 144, 0.2);
+  }
+  .last-news-box__descr a {
+    font-family: "Circe";
+    font-weight: 350;
+    font-size: 14px;
+    color: $c_l_g;
+  }
+  .last-news-box__descr {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+  }
+  .last-news-box {
+    padding: 48px 0 0 60px;
+  }
+  .last-news-box-text a {
+    font-family: "Circe";
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.2em;
+    color: $c_b;
+  }
+  .last-news-box-text {
+    margin-bottom: 48px;
+  }
+  .last-news-box-line {
+    width: 72px;
+    height: 2px;
+    border: 1px solid rgba(95, 123, 144, 0.5);
+    opacity: 0.5;
+  }
+  .last-news-box-date {
+    margin-right: 15px;
+  }
+  .last-news-box-section {
+    margin-left: 15px;
+  }
+  .descr-line {
+    border: 1px solid $c_l_g;
+    height: 12px;
+    opacity: 0.5;
+  }
+  .press-nd-news-img {
+    margin-top: 70px;
+    text-align: right;
+  }
+  .return-to-press__text-b {
+    color: $c_b;
+  }
+  .return-to-press-b  {
+    display: flex;
+    align-items: center;
+    padding: 40px 0;
+  }

@@ -1,0 +1,219 @@
+.bo-main-body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 300px 0 100px;
+  }
+  .bo-description-title {
+    max-width: 821px;
+    width: 100%;
+    font-family: "Circe";
+    font-weight: 350;
+    font-size: 36px;
+    line-height: 1.3em;
+    text-transform: uppercase;
+    color: $c_b;
+    flex: 1 1 auto;
+    margin-bottom: 110px;
+  }
+  .bo-description-logo {
+    transform: translate(0px, -30px);
+  }
+  .village-list {
+    max-width: 474px;
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  .village-list li {
+    list-style: disc;
+    list-style-position: outside;
+    font-family: "Circe";
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1em;
+    color: $c_l_grey;
+    margin-bottom: 25px;
+  }
+  .village-info-detail__list {
+    padding: 110px 0 0 75px;
+  }
+  // slider fullscren
+  
+  .slide {
+    height: 748px;
+    position: relative;
+    background: linear-gradient(180deg, rgba(32, 50, 66, 0) 19.27%, #203242 95.31%), url(/img/other_pages/bo/slide01.png) center / cover no-repeat;
+    border-radius: 4px;
+  }
+  .slider-msg img {
+    position: absolute;
+    top: -64px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .slider-msg__text {
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: "Circe";
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 1.3em;
+    text-align: center;
+    text-transform: uppercase;
+    color: $c_l_g;
+  }
+  .fss-white-l {
+    position: absolute;  
+    left: 135px;
+    bottom: 44px;
+  }
+  .fss-white-r {
+    position: absolute;
+    right: 135px;
+    bottom: 44px;
+  }
+  .fss-white-l img {
+    padding: 17px 8px;
+    border-radius: 4px;
+    background-color: #fff;
+  }
+  .fss-white-r img {
+    padding: 17px 8px;
+    border-radius: 4px;
+    background-color: #fff;
+    transform: rotate(180deg);
+  }
+  .fss-slide0-num {
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+  
+    font-family: "Circe";
+    font-weight: 350;
+    font-size: 18px;
+    line-height: 1.3em;
+    color: $c_w;
+  }
+  // Entertainments
+  
+  
+  .accommodation-body {
+    display: flex;
+    &:after {
+      content: '';
+      bottom: 0;
+      left: 0;
+      padding-left: 100px;
+      margin-left: -100px;
+      
+    }
+  }
+  .accommodation-options {
+    padding-top: 90px;
+    background-color: $c_l_grey;
+  }
+  .accommodation-options__title {
+    color: $c_l_g;
+    font-family: "Circe";
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1em;
+    text-align: left;
+  }
+  .acco-line {
+    width: 370px;
+    border: 1px solid rgba(95, 123, 144, 0.3);
+    margin: 30px 0;
+  }
+  .accommodation-options__list {
+    font-family: "Circe";
+    font-style: normal;
+    font-weight: 350;
+    font-size: 24px;
+    line-height: 1.9em;
+    color: $c_b;
+    margin-bottom: 60px;
+  }
+  .all-inclusive {
+    padding: 50px 0;
+    background-color: $c_l_b;
+    
+  }
+  .all-inclusive__text span {
+    font-family: "Circe";
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.1em;
+    color: $c_w;
+  }
+  .all-inclusive__text {
+    font-family: "Circe";
+    font-weight: 350;
+    font-size: 16px;
+    line-height: 1.1em;
+    color: $c_w;
+  }
+  .all-inclusive__button {
+  margin-top: 30px;
+  }
+  .entertainments {
+    display: flex;
+    flex-direction: column;
+    padding: 90px 0 0 100px;
+  }
+  .entertainments__title {
+    font-family: 'Circe';
+    font-size: 20px;
+    font-weight: 700;
+    color: $c_l_g;
+    margin-bottom: 25px;
+  }
+  .entertainment-text {
+    font-family: 'Circe';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.25;
+    color: $c_b;
+    margin-bottom: 20px;
+  }
+  .entertainments__list-num {
+    list-style-position: inside; 
+  }
+  .entertainments__list-num, .entertainments__paragraph {
+    color: $c_b;
+    font-family: "Circe";
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.38;
+  }
+  .entertainments__paragraph {
+    margin-bottom: 15px;
+  }
+  ol{
+    counter-reset: myCounter;
+  }
+  .entertainments__list-num li{
+    list-style: none;
+    margin-bottom: 10px;
+  }
+  .entertainments__list-num li:last-child{
+    margin-bottom: 15px;
+  }
+  .entertainments__list-num li:before {
+    counter-increment: myCounter;
+    content:counter(myCounter) '.';
+    color: $c_b;
+    font-family: 'Circe';
+    font-weight: 700;
+    line-height: 1.25;
+    font-size: 20px;
+    margin-right: 15px;
+  }
+  .entertainments__line {
+    width: 69px;
+    border: 1px solid $c_l_g;
+    margin-bottom: 15px;
+  }

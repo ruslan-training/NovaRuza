@@ -54,28 +54,28 @@ h1, h2, h3, h4, h5, h6 {
 
 @font-face {
   font-family: "Circe";
-  src: url("../fonts/Circe_Regular.eot");
-  src: url("../fonts/Circe_Regular.woff") format("woff"), url("../fonts/Circe_Regular.ttf") format("truetype");
+  src: url("/fonts/Circe_Regular.eot");
+  src: url("/fonts/Circe_Regular.woff") format("woff"), url("../fonts/Circe_Regular.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
   font-family: "Circe";
-  src: url("../fonts/Circe_Light.eot");
-  src: url("../fonts/Circe_Light.woff") format("woff"), url("../fonts/Circe_Light.ttf") format("truetype");
+  src: url("/fonts/Circe_Light.eot");
+  src: url("/fonts/Circe_Light.woff") format("woff"), url("../fonts/Circe_Light.ttf") format("truetype");
   font-weight: 350;
   font-style: normal;
 }
 @font-face {
   font-family: "Circe";
-  src: url("../fonts/Circe_ExtraLight.eot");
-  src: url("../fonts/Circe_ExtraLight.woff") format("woff"), url("../fonts/Circe_ExtraLight.ttf") format("truetype");
+  src: url("/fonts/Circe_ExtraLight.eot");
+  src: url("/fonts/Circe_ExtraLight.woff") format("woff"), url("../fonts/Circe_ExtraLight.ttf") format("truetype");
   font-weight: 250;
   font-style: normal;
 }
 @font-face {
   font-family: "Circe";
-  src: url("../fonts/Circe_Bold.eot");
+  src: url("/fonts/Circe_Bold.eot");
   src: url("../fonts/Circe_Bold.woff") format("woff"), url("../fonts/Circe_Bold.ttf") format("truetype");
   font-weight: 700;
   font-style: normal;
@@ -88,7 +88,7 @@ h1, h2, h3, h4, h5, h6 {
   font-style: normal;
 }
 .head-wrapper {
-  background: url(../img/header/bg.png) 100%/cover no-repeat;
+  background: url(/img/header/bg.png) 100%/cover no-repeat;
 }
 
 .container {
@@ -398,7 +398,7 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background: url(../img/mission/bg-mask.png), url(../img/mission/bg.png) center/cover no-repeat;
+  background: url(/img/mission/bg-mask.png), url(/img/mission/bg.png) center/cover no-repeat;
 }
 
 .mission__title {
@@ -776,7 +776,7 @@ h2 {
   top: 0;
   bottom: 0;
   content: "";
-  background: url(../img/footer/bg.svg) #5F7B90;
+  background: url(/img/footer/bg.svg) #5F7B90;
   padding-right: 5%;
   padding-left: 9999px;
   margin-left: -9999px;
@@ -796,7 +796,7 @@ h2 {
 
 .always-on {
   padding: 85px 68px 0 0;
-  background: url(../img/footer/bg.svg) #5F7B90;
+  background: url(/img/footer/bg.svg) #5F7B90;
 }
 .always-on .always-on__title {
   max-width: 300px;

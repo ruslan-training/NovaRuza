@@ -1,0 +1,115 @@
+.press-head {
+    background: url(/img/footer/bg.svg) $c_b;
+    background-blend-mode: multiply
+  }
+  .press-head-body__title {
+    font-family: "Circe";
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 1.2em;
+    color: $c_l_g;
+  }
+  .press-head-body {
+    padding: 52px 0 25px 0;
+  }
+  .wrapper__btn-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0;
+    border-bottom: 1px solid rgba(95, 123, 144, 0.2);
+  }
+  .press-btn {
+    flex: 0 0 16%;
+    font-family: "Circe";
+    font-weight: 700;
+    font-size: 14px;
+    font-weight: 700;
+    width: 100%;
+    padding: 11px 23px;
+    border-radius: 4px;
+    transition: all .2s ease;
+  }
+  .press-btn:hover {
+    border: 1px solid $c_l_g;
+    transition: all .2s ease;
+  }
+  
+  // slider press
+  .press-slide {
+    padding: 75px 0;
+    border-bottom: 1px solid rgba(95, 123, 144, 0.2);
+  }
+  .press-slide__img {
+    position: relative;
+    background: linear-gradient(180deg, rgba(32, 50, 66, 0) 19.27%, #203242 95.31%)
+  }
+  .press-slide__img img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: -1;
+  }
+  .large {
+    max-width: 770px;
+    width: 100%;
+    border-radius: 4px;
+  }
+  .small {
+    max-width: 370px;
+    width: 100%;
+    border-radius: 4px;
+  }
+  .slide-row-wrapper  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  .press-slide-text {
+    position: absolute;
+    left: 40px;
+    bottom: 40px;
+  }
+  .press-slide-title {
+    max-width: 655px;
+    width: 100%;
+    font-family: "Circe";
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11em;
+    color: $c_w;
+    margin-bottom: 35px;
+  }
+  .press-slide-date {
+    max-width: 311px;
+    width: 100%;
+    font-family: "Circe";
+    font-weight: 400;
+    font-size: 16px;
+    color: $c_l_g
+  }
+  .page-btn {
+    padding: 11px 17px;
+    border-radius: 4px;
+    background-color: $c_l_grey;
+    font-family: "Circe";
+    font-size: 14px;
+    font-weight: 700;
+    color: $c_l_b;
+    margin-right: 13px;
+    transition: all .2s ease;
+  }
+  .page-btn:hover {
+    border: 1px solid $c_l_g;
+    transition: all .2s ease;
+  }
+  .page-btn:last-child {
+    margin: 0;
+  }
+  .press-pages__btn-box {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 30px 0 75px
+  }

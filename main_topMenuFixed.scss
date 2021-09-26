@@ -43,6 +43,11 @@
     font-size: 16px;
     font-weight: 700;
     text-transform: capitalize;
+    transition: all .2s ease;
+  }
+  .list__el a:hover {
+    color: $c_l_g;
+    transition: all .2s ease;
   }
   .header__contacts {
     position: relative;

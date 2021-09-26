@@ -5,7 +5,6 @@ window.onscroll = function showHeader() {
     } else {
         header.classList.remove('menu-fixed');
     }
-    console.log(header);
 }
 
 

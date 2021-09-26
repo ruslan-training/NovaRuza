@@ -1,0 +1,110 @@
+// Slider
+
+.slider {
+    padding: 100px 0;
+  }
+  .slider-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  h2 {
+    flex: 0 1 15%;
+    font-family: "Circe";
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 1em;
+    color: $c_b;
+  }
+  .slider-head__btn-box {
+    display: flex;
+  }
+  .filter-btn {
+    padding: 11px 48px;
+    background: $c_l_grey;
+    border-radius: 6px;
+    color: $c_l_b;
+    transition: all .1s ease;
+    margin-right: 30px;
+  }
+  .filter-btn:last-child{
+    margin: 0;
+  }
+  .arrow-btn {
+    display: flex;
+    padding: 17px 8px;
+    background-color: $c_l_g;
+    border-radius: 4px;
+
+  }
+  .filter-btn:active, .filter-btn:focus {
+    color: $c_b;
+    border: 2px solid $c_l_g;
+    transition: all .1s ease;
+  }
+  .slider-body {
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    min-width: 0;
+
+    .slide {
+      position: relative;
+    }
+    .slider-layer {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      padding: 0 0 0 40px;
+    }
+  }
+  .slide__img img {
+    width: 100%;
+    height: 100%;
+  }
+  .slide__mask{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(180deg, rgba(32, 50, 66, 0) 19.27%, #203242 95.31%);
+    width: 100%;
+    height: 100%;
+  }
+  .slide__title {
+    font-family: "Circe";
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 24px;
+    line-height: 1em;
+    color: $c_w;
+    margin-bottom: 10px;
+  }
+  .slide__text {
+    font-family: "Circe";
+    font-weight: 350;
+    font-size: 16px;
+    line-height: 1.2em;
+    color: $c_w;
+    margin-bottom: 30px;
+  }
+  .slide-btn {
+    padding: 10px 20px;
+    background-color: $c_l_g;
+    color: $c_w;
+    font-size: 14px;
+    line-height: 1.3em;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    transition: all .2s ease;
+    &:hover {
+      transform: scale(1.1);
+      transition: all .2s ease;
+    }
+  }

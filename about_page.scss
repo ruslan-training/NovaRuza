@@ -1,0 +1,195 @@
+.about-main {
+    background: linear-gradient(180deg, rgba(32, 50, 66, 0.5) 0%, rgba(32, 50, 66, 0.547541) 78.12%, rgba(32, 50, 66, 0.8) 95.31%), url(/img/other_pages/about/head_bg.png) center / cover no-repeat;
+  }
+  .about-main-body {
+    padding: 210px 0 120px;
+    h1 {
+      font-family: "Circe";
+      font-weight: 700;
+      font-size: 48px;
+      line-height: 1.1em;
+      color: $c_w;
+      margin-bottom: 20px;
+    }
+    .about-main__text {
+      max-width: 870px;
+      width: 100%;
+      font-family: "Circe";
+      font-weight: 350;
+      font-size: 30px;
+      line-height: 1.1em;
+      color: $c_w;
+    }
+  }
+  .services {
+    position: relative;
+    overflow: hidden;
+  }
+  .services-body {
+    display: flex;
+    &:after {
+      content: '';
+      top: 0;
+      left: 0;
+      background-color:  $c_l_grey;
+      padding-left: 9999px;
+      margin-left: -9999px;
+      z-index: -1;
+    }
+  }
+  .services-box {
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 110px 0 0 0;
+    background-color: $c_l_grey;
+   
+    .services-title {
+      font-family: "Circe";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 1em;
+    color: $c_l_g;
+    }
+    .service-line {
+      width: 300px;
+      border: 1px solid rgba(95, 123, 144, 0.3);
+      margin: 30px 0;
+      margin-right: 70px;
+    }
+    .services-el {
+      max-width: 300px;
+      width: 100%;
+      font-family: "Circe";
+      font-weight: 350;
+      font-size: 24px;
+      line-height: 1.2em;
+      color: $c_b;
+    }
+  }
+  .flex-numbers {
+    flex: 1 1 auto;
+    flex-direction: row;
+    background-color: $c-w;
+  }
+  .numbers-box__text {
+    line-height: 1em;
+  }
+  .numbers-box:first-child, .create {
+    margin-bottom: 100px;
+  }
+  .we-do {
+    flex: 1 1 68%;
+    padding: 90px 0 0 100px;
+  }
+  .we-do__title {
+    max-width: 444px;
+    width: 100%;
+    font-family: "Circe";
+    font-weight: 350;
+    font-size: 24px;
+    line-height: 1.2em;
+    color: $c_b;
+    margin-bottom: 30px;
+  }
+  .we-do__text {
+    max-width: 531px;
+    width: 100%;
+    font-family: "Circe";
+    font-weight: 350;
+    font-size: 18px;
+    line-height: 1.4em;
+    color: $c_l_b;
+    margin-bottom: 90px;
+  }
+  .about-mission {
+    position: relative;
+    overflow: hidden;
+  }
+  .about-mission-body {
+    display: flex;
+    
+    &:after {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      content: "";
+      background: url(../img/footer/bg.svg) #5F7B90;
+      padding-right: 5%;
+      padding-left: 9999px;
+      margin-left: -9999px;
+      z-index: -1;
+    }
+    &:before {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      content: "";
+      background-color: $c_l_grey;
+      padding-right: 9999px;
+      margin-right: -9999px;
+      z-index: -1;
+    }
+  }
+  .about-always-on {
+    background: url(../img/footer/bg.svg) #5F7B90;
+    flex: 1 1 31%;
+    padding: 90px 0 0 0;
+  }
+  .about-always-on__title {
+    font-family: "Circe";
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 1.5em;
+    color: $c_w;
+  }
+  .about-absolute-img {
+    max-width: 336px;
+    width: 100%;
+    position: absolute;
+    top: 90px;
+    right: 0;
+  }
+  .about-absolute-img img {
+    width: 100%;
+    height: 100%;
+  }
+  .about-map {
+    position: relative;
+  }
+  .about-map__img img {
+    width: 100%;
+    height: 100%;
+  }
+  .objects-target {
+    position: absolute;
+    top: 0;
+    left: 0;
+  
+    padding: 21px 135px;
+    background-color: $c_l_grey;
+  
+    font-family: "Circe";
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 1.1em;
+    color: $c_b;
+  }
+  .bosikom {
+    position: absolute;
+    top: 70px;
+    right: 180px;
+  }
+  .ruza {
+    position: absolute;
+    left: 705px;
+    top: 335px;
+  }
+  .chalet {
+    position: absolute;
+    bottom: 60px;
+    left: 559px;
+  }
+  
