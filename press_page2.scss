@@ -11,7 +11,7 @@
   .return-to-press img {
     margin-right: 20px;
   }
-  .return-to-press__text {
+  .return-to-press__text a {
     font-family: "Circe";
     font-weight: 400;
     font-size: 16px;
@@ -102,8 +102,11 @@
     margin-top: 70px;
     text-align: right;
   }
-  .return-to-press__text-b {
-    color: $c_b;
+  .return-to-press__text-b a{
+    font-family: "Circe";
+    font-weight: 350;
+    font-size: 16px;
+    color: $c_l_b;
   }
   .return-to-press-b  {
     display: flex;

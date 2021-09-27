@@ -16,6 +16,10 @@
 @import "bosikom.scss";
 @import "press_page.scss";
 @import "press_page2.scss";
+@import "sales_page.scss";
+@import "sales_page2.scss";
+@import "buy_page.scss";
+@import "contacts.scss";
 
 // @media (max-width: 1200px) {
 //   .container  {
@@ -29,36 +33,4 @@
 //     margin-right: 0;
 //   }
 // }
-
-// Buttons
-.sales-page {
-  justify-content: flex-start;
-}
-.sales-page button {
-  margin-right: 30px;
-}
-.sales-page button:last-child {
-  margin-right: 0;
-}
-// sales block
-.sales-page-slider {
-  padding: 90px 0 0 0;
-  border-bottom: 1px solid rgba(95, 123, 144, 0.2);
-}
-.sales-page-slide {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 150px;
-}
-.sales-slide-img__text a {
-  font-family: "Circe";
-  font-weight: 700;
-  font-size: 14px;
-  color: $c_l_b;
-}
-
-
-
-
-
 

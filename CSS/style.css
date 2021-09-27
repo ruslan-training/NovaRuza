@@ -2217,7 +2217,7 @@ ol {
   margin-right: 20px;
 }
 
-.return-to-press__text {
+.return-to-press__text a {
   font-family: "Circe";
   font-weight: 400;
   font-size: 16px;
@@ -2331,8 +2331,11 @@ ol {
   text-align: right;
 }
 
-.return-to-press__text-b {
-  color: #2c4358;
+.return-to-press__text-b a {
+  font-family: "Circe";
+  font-weight: 350;
+  font-size: 16px;
+  color: #5f7b90;
 }
 
 .return-to-press-b {
@@ -2379,4 +2382,431 @@ ol {
   font-weight: 700;
   font-size: 14px;
   color: #5f7b90;
+}
+
+.sales-slide-img {
+  position: relative;
+}
+
+.slide-img__absolute {
+  max-width: 206px;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 33px;
+}
+
+.sales-form {
+  background-color: #f0f2f7;
+  padding: 90px 0 80px 0;
+}
+
+.sales-form-title {
+  max-width: 674px;
+  width: 100%;
+  font-family: "Circe";
+  font-weight: 350;
+  font-size: 36px;
+  line-height: 0.9em;
+  color: #2c4358;
+  margin-bottom: 30px;
+}
+
+.sales-form-text {
+  max-width: 300px;
+  width: 100%;
+  font-family: "Circe";
+  font-weight: 350;
+  font-size: 18px;
+  line-height: 1.2em;
+  color: #5f7b90;
+  border-left: 2px solid #8dae3e;
+  padding-left: 20px;
+  margin-left: 126px;
+}
+
+.sales-form-body__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.sales-input-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 30px;
+}
+
+.sales-input input {
+  width: 100%;
+  height: 100%;
+  padding: 13px 22px;
+  background: #ffffff;
+  border-radius: 4px;
+  font-family: "Circe";
+  font-weight: 350;
+  font-size: 16px;
+  color: #5f7b90;
+}
+
+.sales-input {
+  max-width: 370px;
+  width: 100%;
+  height: 52px;
+}
+
+.submit-input input {
+  background-color: #8dae3e;
+  font-family: "Circe";
+  font-weight: 350;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.checkbox-span {
+  font-family: "Circe";
+  font-size: 14px;
+  font-weight: 400;
+  margin-left: 30px;
+  color: #5f7b90;
+}
+
+.checkbox {
+  width: 1px;
+  height: 1px;
+  position: absolute;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+}
+
+.checkbox-styled {
+  width: 20px;
+  height: 20px;
+  background: #ffffff;
+  position: absolute;
+}
+
+.checkbox:checked + .checkbox-styled::before {
+  content: "";
+  position: absolute;
+  width: 12px;
+  height: 8px;
+  background: url(/img/sales/icon_01.svg) no-repeat;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.sale-nd-bg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 496px;
+  background: url(/img/sales/04.png) center/contain no-repeat;
+  margin-bottom: 70px;
+}
+
+.million-box-body {
+  position: relative;
+}
+
+.million-box-body__link a {
+  font-family: "Circe";
+  font-weight: 700;
+  font-size: 18px;
+  color: #5f7b90;
+}
+
+.million-box-body__title {
+  font-family: "Circe";
+  font-weight: 700;
+  font-size: 48px;
+  color: #8dae3e;
+  padding: 30px 0;
+}
+
+.million-box-body__line {
+  width: 69px;
+  border: 2px solid #8dae3e;
+  margin-bottom: 30px;
+}
+
+.million-box-body__text p {
+  max-width: 700px;
+  width: 100%;
+  font-family: "Circe";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.63em;
+  color: #2c4358;
+  margin-bottom: 35px;
+}
+
+.million-box-body__text p:last-child {
+  margin: 0;
+}
+
+.million-img-absolute {
+  position: absolute;
+  top: 200px;
+  right: 0;
+  max-width: 400px;
+  width: 100%;
+}
+
+.million-img-absolute img {
+  width: 100%;
+  height: 100%;
+}
+
+.buy-bg-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  height: 485px;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(32, 50, 66, 0.5)), color-stop(77.08%, rgba(32, 50, 66, 0.66)), to(rgba(32, 50, 66, 0.8))), url(/img/buying/bg.png) center/cover no-repeat;
+  background: linear-gradient(180deg, rgba(32, 50, 66, 0.5) 0%, rgba(32, 50, 66, 0.66) 77.08%, rgba(32, 50, 66, 0.8) 100%), url(/img/buying/bg.png) center/cover no-repeat;
+}
+
+.buy-bg-text {
+  font-family: "Circe";
+  font-weight: 700;
+  font-size: 48px;
+  color: #ffffff;
+  margin: 0 0 50px 130px;
+}
+
+.calculator-body img {
+  width: 100%;
+}
+
+.how-to-buy-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 100px 0;
+}
+
+.how-to-buy-body__text {
+  max-width: 361px;
+  width: 100%;
+  font-family: "Circe";
+  font-weight: 350;
+  font-size: 36px;
+  line-height: 1.1em;
+  color: #2c4358;
+}
+
+.option {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 40px;
+}
+
+.option-wrap {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0;
+}
+
+.option__number {
+  position: relative;
+  width: 52px;
+  height: 52px;
+  background: rgba(141, 174, 62, 0.2);
+  border-radius: 4px;
+}
+
+.option-num {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-family: "Circe";
+  font-weight: 700;
+  font-size: 32px;
+  color: #8dae3e;
+}
+
+.option__title {
+  font-family: "Circe";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1em;
+  color: #8dae3e;
+  margin-left: 25px;
+}
+
+.option__text {
+  max-width: 355px;
+  width: 100%;
+  font-family: "Circe";
+  font-weight: 350;
+  font-size: 16px;
+  line-height: 1.2em;
+  color: #2c4358;
+  padding-left: 80px;
+}
+
+.contacts-form {
+  background: #E5E5E5;
+}
+
+.contacts-form-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.phone-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.phone-box__icon {
+  margin-right: 35px;
+}
+
+.phone-box-title, .phone-box-schedule {
+  font-family: "Circe";
+  font-weight: 400;
+  font-size: 18px;
+  color: #5f7b90;
+}
+
+.phone-box-mail, .phone-box-adress {
+  font-family: "Circe";
+  font-weight: 400;
+  font-size: 24px;
+  color: #2c4358;
+}
+
+.phone-box-num {
+  font-family: "Circe";
+  font-weight: 400;
+  font-size: 32px;
+  color: #2c4358;
+}
+
+.phone-box-line {
+  width: 72px;
+  border: 2px solid #8dae3e;
+  margin: 30px 0;
+}
+
+.phone-box__icon._phone {
+  -webkit-transform: translate(0px, -28px);
+          transform: translate(0px, -28px);
+}
+
+.phone-box__icon._mail {
+  -webkit-transform: translate(0px, -32px);
+          transform: translate(0px, -32px);
+}
+
+.phone-box__icon._gps {
+  -webkit-transform: translate(0px, 0px);
+          transform: translate(0px, 0px);
+}
+
+.contacts-box {
+  max-width: 500px;
+  width: 100%;
+  padding: 80px 0 0 20px;
+}
+
+.contacts-inner, .contacts-input-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.contacts-inner {
+  padding: 70px 0 70px 80px;
+  border-left: 1px solid rgba(95, 123, 144, 0.2);
+}
+
+.contacts-input input {
+  width: 100%;
+  height: 100%;
+  padding: 13px 22px;
+  background: #f0f2f7;
+  border-radius: 4px;
+  font-family: "Circe";
+  font-weight: 400;
+  font-size: 16px;
+  color: #5f7b90;
+}
+
+.contacts-input {
+  max-width: 370px;
+  width: 100%;
+  height: 52px;
+  margin-bottom: 22px;
+}
+
+.contacts-form-title {
+  font-family: "Circe";
+  font-weight: 700;
+  font-size: 24px;
+  color: #2c4358;
+  margin-bottom: 15px;
+}
+
+.contacts-form-text {
+  font-family: "Circe";
+  font-weight: 400;
+  font-size: 18px;
+  color: #5f7b90;
+  margin-bottom: 35px;
+}
+
+.checkbox-styled {
+  border-radius: 4px;
+}
+
+.checkbox-group {
+  margin-bottom: 40px;
+}
+
+.submit-input._contact {
+  max-width: 200px;
+  width: 100%;
 }
